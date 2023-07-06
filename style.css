@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+        
+.Caxa{  
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Lista-Contatos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+        
+.Intens-Lista-Contatos{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+        
+.Intens-Lista-Contatos:last-child {
+    border-bottom: none;
+}
+        
+.Avatar-Contato{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Nome-Contatos{
+    font-weight: bold;
+}
+        
+.Status-Contatos{
+    font-size: 12px;
+    color: #999;
+}
+
+.Botão-Invisivel{
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 3px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Botão{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Lista-Conversas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Itens-Lista-Conversas{
+    margin-bottom: 20px;
+}
+
+.Mensagem-Pessoa{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Contato-Mensagem{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Tempo-Mensagem{
+    font-size: 12px;
+    color: #999;
+}
+
+.Botão-Volta{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+        
+.Lista-Ligações{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Lista-items-ligações{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.Avatar-Ligações{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Detalhes-Ligações{
+    flex-grow: 1;
+}
+
+.Ligação-Pessoa{
+    font-weight: bold;
+}
+
+.Tempo-Ligação{
+    font-size: 12px;
+    color: #999;
+}
+
+.Ligação-Status{
+    font-size: 12px;
+    color: #999;
+}
